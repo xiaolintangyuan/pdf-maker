@@ -1,0 +1,16 @@
+PDF Maker Plain Text Sample
+
+Plain text files are converted paragraph by paragraph. A blank line starts a new paragraph, and every paragraph is set in the default body style.
+
+Lines that are written one after another without a blank line between them
+are joined into a single paragraph, so hard-wrapped text flows naturally
+across the width of the page instead of keeping its original line breaks.
+
+Leading and trailing spaces on a line are trimmed.
+    This line was indented in the source, but it joins the paragraph above.
+
+Characters that have special meaning in other formats are left alone: *asterisks*, # hashes, `backticks`, <angle brackets> and & ampersands all appear exactly as typed.
+
+Long paragraphs wrap automatically and can break across pages. Use options such as --author, --watermark, --paper-size and --margins to control how the finished document looks. The same text file can be converted again and again with different options without changing a single character of the source.
+
+The end.

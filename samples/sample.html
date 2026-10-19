@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+
+<!-- Comments are ignored. Each paragraph is kept on one line so no stray line breaks end up in the PDF. -->
+
+<h1>HTML Showcase</h1>
+<p>This page uses the HTML elements that PDF Maker converts into a PDF.</p>
+
+<h2>Headings</h2>
+<h1>Heading level 1</h1>
+<h2>Heading level 2</h2>
+<h3>Heading level 3</h3>
+<h4>Heading level 4</h4>
+<h5>Heading level 5</h5>
+<h6>Heading level 6</h6>
+
+<h2>Paragraphs and line breaks</h2>
+<p>A normal paragraph of text. It wraps automatically when it reaches the right margin.</p>
+<p>First line<br>Second line after a br tag<br>Third line after another br tag</p>
+<p>Entities are decoded: &lt;tag&gt; &amp; &quot;quotes&quot; &#39;apostrophes&#39; and&nbsp;non-breaking&nbsp;spaces.</p>
+<p>Inline tags such as <b>bold</b>, <i>italic</i>, <code>code</code> and <a href="https://example.com">links</a> are dropped by the converter, so only their text appears in the PDF.</p>
+
+<h2>Block containers</h2>
+<div>Text inside a div becomes its own paragraph.</div>
+<section>Text inside a section becomes its own paragraph.</section>
+<article>Text inside an article becomes its own paragraph.</article>
+<header>Header, footer, nav, main, aside and address work the same way.</header>
+
+<h2>Images</h2>
+<p>An image is replaced by its alt text in square brackets:</p>
+<img src="logo.png" alt="Company logo">
+
+<h2>Unordered list</h2>
+<ul>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item with <b>inline</b> tags</li>
+</ul>
+
+<h2>Ordered list</h2>
+<ol>
+<li>Write the HTML</li>
+<li>Run pdfmaker</li>
+<li>Open the PDF</li>
+</ol>
+
+<h2>Blockquote</h2>
+<blockquote>Quotes can hold text directly.</blockquote>
+<blockquote><p>Or a paragraph inside the quote.</p></blockquote>
+
+<h2>Horizontal rule</h2>
+<p>Above the rule.</p>
+<hr>
+<p>Below the rule.</p>
+
+<h2>Table</h2>
+<table>
+<thead>
+<tr><th>Format</th><th>Extension</th><th>Supported</th></tr>
+</thead>
+<tbody>
+<tr><td>Markdown</td><td>.md</td><td>Yes</td></tr>
+<tr><td>Text</td><td>.txt</td><td>Yes</td></tr>
+<tr><td>HTML</td><td>.html</td><td>Yes</td></tr>
+</tbody>
+</table>
+
+<h2>Code block</h2>
+<pre>
+function greet(name) {
+    return "Hello, " + name + "!";
+}
+</pre>
+
+</body>
+</html>

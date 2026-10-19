@@ -1,0 +1,14 @@
+{
+    "name": "pdfmaker",
+    "version": "1.0.0",
+    "description": "A command line pdf maker for markdown, text and html files",
+    "main": "pdfmaker.js",
+    "scripts": { },
+    "keywords": [ ],
+    "author": "xiaolintangyuan",
+    "license": "MIT",
+    "type": "commonjs",
+    "dependencies": {
+        "pdfmake": "^0.3.12"
+    }
+}
