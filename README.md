@@ -24,7 +24,7 @@ A small command-line tool that converts Markdown, plain text and HTML files into
 ## Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/xiaolintangyuan/pdf-maker
 cd pdfmaker
 npm install
 ```
